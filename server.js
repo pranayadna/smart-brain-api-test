@@ -14,6 +14,7 @@ const db = knex({
   client: 'pg',
   connection: {
     connectionString : 'postgresql://postgres:9C8rpUm11fWMEKL7qrSN@containers-us-west-194.railway.app:6422/railway',
+    ssl: true
   }
 });
 
