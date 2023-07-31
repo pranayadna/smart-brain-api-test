@@ -13,8 +13,7 @@ const db = knex({
   // connect to your own database here:
   client: 'pg',
   connection: {
-    connectionString : 'postgresql://postgres:xB73KYPvzpLpyxdlCLSv@containers-us-west-194.railway.app:6422/railway',
-    ssl: true
+    connectionString : 'postgresql://postgres:xB73KYPvzpLpyxdlCLSv@containers-us-west-194.railway.app:6422/railway'
   }
 });
 
